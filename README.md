@@ -17,14 +17,19 @@
 ```bash
 git clone https://github.com/nadeemr01/FBI-Telegram-Bot.git
 Перейдите в папку проекта:
+```bash
 cd FBI-Telegram-Bot
 Создайте виртуальное окружение:
+```bash
 python3 -m venv venv
 Активируйте виртуальное окружение:
+```bash
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 Установите зависимости:
+```bash
 pip install -r requirements.txt
 🚀 Запуск бота
+```bash
 python data/bot.py
 
